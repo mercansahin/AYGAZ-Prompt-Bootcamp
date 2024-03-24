@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatlı Tarifleri</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Popup tarifler için CSS */
+        .recipe-popup {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo" onclick="zoomLogo()">
+        <img src="images/sitelogo.jpg" alt="Site Logosu">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Anasayfa</a></li>
+            <li><a href="#about" onclick="showAbout()">Hakkında</a></li>
+            <li><a href="#contact" onclick="showContact()">İletişim</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h1>Tatlı Geldiniz!</h1>
+        <p>Benzersiz tatlılar ve onların tarifleri için doğru yerdesiniz.</p>
+        <p>Lütfen tarifini görmek istediğiniz tatlının üstüne tıklayınız.</p>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#pastalar">Pastalar</a></li>
+            <li><a href="#kurabiyeler">Kurabiyeler</a></li>
+            <li><a href="#şerbetli-tatlılar">Şerbetli Tatlılar</a></li>
+            <li><a href="#sütlü-tatlılar">Sütlü Tatlılar</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Hakkında</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Bu site, çoğu kişinin vazgeçemediği benzersiz tatlı tarifleri için oluşturulmuştur.</p>
+                <p>Sitede çeşitli tatlı tariflerini bulabilir ve deneyebilirsiniz.</p>
+        </div>
+    </section>
+    
+
+    <section id="pastalar">
+        <h2>Pastalar</h2>
+        <article>
+            <h3>*Çikolatalı Çilekli Pasta</h3>
+            <div class="recipe" onclick="showRecipe('recipe1')">
+                <img src="images/çpasta.png" alt="Çikolatalı Çilekli Pasta Resmi" width="220" height="200" onclick="toggleRecipe('recipe1')">
+            </div>
+            <div id="recipe1" class="recipe-popup">
+                <h2>Çikolatalı ve Çilekli Pasta Tarifi</h2>
+                <p>Malzemeler:</p>
+                <ul>
+                    <li>200 gram un</li>
+                    <li>150 gram toz şeker</li>
+                    <li>3 yumurta</li>
+                    <li>100 gram tereyağı</li>
+                    <li>100 ml süt</li>
+                    <li>1 çay kaşığı kabartma tozu</li>
+                    <li>1 çay kaşığı vanilya özütü</li>
+                    <li>100 gram çilek (parçacıklar halinde)</li>
+                    <li>100 gram bitter çikolata (parçacıklar halinde)</li>
+                </ul>
+                <p>Hazırlanışı:</p>
+                <ol>
+                    <li>Bir kapta yumurta ve toz şekeri çırpın.</li>
+                    <li>Yumuşak tereyağı ve sütü ekleyin, karıştırın.</li>
+                    <li>Unu, kabartma tozunu ve vanilya özütünü ekleyin, homojen bir karışım elde edene kadar karıştırın.</li>
+                    <li>Çilek ve çikolata parçacıklarını ekleyip karıştırın.</li>
+                    <li>Hazırladığınız hamuru yağlanmış bir kek kalıbına dökün.</li>
+                    <li>Önceden ısıtılmış 180°C fırında yaklaşık 35-40 dakika pişirin.</li>
+                    <li>Fırından çıkarıp soğumaya bırakın.</li>
+                    <li>Servis öncesi dilimleyerek servis yapın.</li>
+                </ol>
+            </div>
+        </article>
+        <article>
+            <h3>*Meyveli Pasta</h3>
+            <div class="recipe" onclick="showRecipe('recipe2')">
+                <img src="images/mpasta.jpg" alt="Meyveli Pasta Resmi" width="220" height="200" onclick="toggleRecipe('recipe2')">
+            </div>
+            <div id="recipe2" class="recipe-popup">
+                <h2>Meyveli Pasta Tarifi</h2>
+                <p>Malzemeler:</p>
+                <ul>
+                    <li>200 gram un</li>
+                    <li>150 gram toz şeker</li>
+                    <li>3 yumurta</li>
+                    <li>100 gram tereyağı</li>
+                    <li>100 ml süt</li>
+                    <li>1 çay kaşığı kabartma tozu</li>
+                    <li>1 çay kaşığı vanilya özütü</li>
+                    <li>50 gram böğürtlen</li>
+                    <li>50 gram çilek</li>
+                    <li>50 gram kuru üzüm</li>
+                    <li>Dış süsleme için: kivi dilimleri, çilek dilimleri, karadut, portakal dilimleri</li>
+                </ul>
+                <p>Hazırlanışı:</p>
+                <ol>
+                    <li>Bir kapta yumurta ve toz şekeri çırpın.</li>
+                    <li>Yumuşak tereyağı ve sütü ekleyin, karıştırın.</li>
+                    <li>Unu, kabartma tozunu ve vanilya özütünü ekleyin, homojen bir karışım elde edene kadar karıştırın.</li>
+                    <li>Böğürtlen, çilek ve kuru üzümü ekleyip karıştırın.</li>
+                    <li>Hazırladığınız hamuru yağlanmış bir kek kalıbına dökün.</li>
+                    <li>Önceden ısıtılmış 180°C fırında yaklaşık 35-40 dakika pişirin.</li>
+                    <li>Fırından çıkarıp soğumaya bırakın.</li>
+                    <li>Servis öncesi dış süsleme için dilimlenmiş meyvelerle pasta üzerini süsleyin.</li>
+                </ol>
+            </div>
+        </article>
+    </section>
+
+    <section id="kurabiyeler">
+        <h2>Kurabiyeler</h2>
+        <article>
+            <h3>Tavşan Şekilli Çikolatalı Kurabiye</h3>
+            <div class="recipe" onclick="showRecipe('recipe3')">
+                <img src="images/tavşankurab.jpg" alt="Tavşan Şekilli Çikolatalı Kurabiye Resmi" width="220" height="200" onclick="toggleRecipe('recipe3')">
+            </div>
+            <div id="recipe3" class="recipe-popup">
+                <h2>Tavşan Şekilli Çikolatalı Kurabiye Tarifi</h2>
+                <p>Malzemeler:</p>
+                <ul>
+                    <li>150 gram tereyağı (oda sıcaklığında)</li>
+                    <li>1 su bardağı toz şeker</li>
+                    <li>1 adet yumurta</li>
+                    <li>1 çay bardağı kakao</li>
+                    <li>2 su bardağı un</li>
+                    <li>1 çay kaşığı kabartma tozu</li>
+                    <li>1 çay kaşığı vanilya özütü</li>
+                    <li>150 gram çikolata damla veya parçacıklar</li>
+                </ul>
+                <p>Hazırlanışı:</p>
+                <ol>
+                    <li>Tereyağı ve toz şekeri bir kaba alın, yumuşak bir kıvam alana kadar iyice çırpın.</li>
+                    <li>Yumurtayı ekleyip karıştırın.</li>
+                    <li>Kakaoyu, unu, kabartma tozunu ve vanilya özütünü ekleyerek yoğurun.</li>
+                    <li>Çikolata parçacıklarını ekleyip hamura iyice yedirin.</li>
+                    <li>Hamurdan ceviz büyüklüğünde parçalar alıp yuvarlayın ve tepsiye dizin.</li>
+                    <li>Önceden ısıtılmış 180°C fırında yaklaşık 12-15 dakika pişirin.</li>
+                    <li>Fırından çıkarıp soğumaya bırakın.</li>
+                    <li>Soğuduktan sonra isteğe göre çikolata sosu veya şeker glazürü ile süsleyin.</li>
+                </ol>
+            </div>
+        </article>
+        <article>
+            <h3>Çikolata Parçacıklı Yuvarlak Kurabiye</h3>
+            <div class="recipe" onclick="showRecipe('recipe4')">
+                <img src="images/çikparkurab.jpg" alt="Çikolata Parçacıklı Yuvarlak Kurabiye Resmi" width="220" height="200" onclick="toggleRecipe('recipe4')">
+            </div>
+            <div id="recipe4" class="recipe-popup">
+                <h2>Çikolata Parçacıklı Yuvarlak Kurabiye Tarifi</h2>
+                <p>Malzemeler:</p>
+                <ul>
+                    <li>200 gram tereyağı (oda sıcaklığında)</li>
+                    <li>1 su bardağı toz şeker</li>
+                    <li>2 adet yumurta</li>
+                    <li>1 çay bardağı kakao</li>
+                    <li>2.5 su bardağı un</li>
+                    <li>1 çay kaşığı kabartma tozu</li>
+                    <li>1 çay kaşığı vanilya özütü</li>
+                    <li>100 gram çikolata parçacıkları</li>
+                </ul>
+                <p>Hazırlanışı:</p>
+                <ol>
+                    <li>Tereyağı ve toz şekeri bir kaba alın, yumuşak bir kıvam alana kadar iyice çırpın.</li>
+                    <li>Yumurtaları ekleyip karıştırın.</li>
+                    <li>Kakaoyu, unu, kabartma tozunu ve vanilya özütünü ekleyerek yoğurun.</li>
+                    <li>Çikolata parçacıklarını ekleyip hamura iyice yedirin.</li>
+                    <li>Hamurdan ceviz büyüklüğünde parçalar alıp yuvarlayın ve tepsiye dizin.</li>
+                    <li>Önceden ısıtılmış 180°C fırında yaklaşık 10-12 dakika pişirin.</li>
+                    <li>Fırından çıkarıp soğumaya bırakın.</li>
+                    <li>Soğuduktan sonra servis yapın.</li>
+                </ol>
+            </div>
+        </article>
+        
+    </section>
+
+    <section id="Şerbetli Tatlılar">
+        <h2>Şerbetli Tatlılar</h2>
+        <!-- Kek tarifleri için içerikler buraya gelecek -->
+    </section>
+
+    <section id="sütlü-tatlılar">
+        <h2>Sütlü Tatlılar</h2>
+        <!-- Sütlü tatlı tarifleri için içerikler buraya gelecek -->
+    </section>
+</main>
+
+<footer>
+    <p>Tüm hakları saklıdır. &copy; 2024</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
