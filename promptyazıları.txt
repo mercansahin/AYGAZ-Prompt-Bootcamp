@@ -1,0 +1,76 @@
+ChatGPT’den yararlanarak kullandığım promptlar
+
+Prompt 1:
+Bir ön web geliştiricisi gibi hareket etmeni istiyorum. Yapacağımız proje için şu araçları kullanarak yeni 
+bir web sitesi kodlayacaksın: HTML, CSS için CDN'yi kullanan Bootstrap çerçevesinde ve JavaScript kullanacaksın.   
+Yapılacak web sitesi mobil uyumlu ve duyarlı olmalıdır. Ayrıca düzen ve stil açısından site yapısında Twitter 
+Bootstrap CSS sınıflarının en son olan sürümünü de içermelidir. HTML, CSS ve JavaScript kodlarını ayrı ayrı olarak
+vermelisin. Ek olarak sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisin. 
+Yazdığın kodlara kısa açıklamalar ekleyebilirsin. Tüm gereklilikleri anlıyorsan lütfen evet veya anlamadıysan hayır 
+şeklinde yanıt verir misin?
+
+Prompt 2:
+Yapacağımız web sitesi bir portfolio galeri websitesi ve bu sitede tatlı tarif önerileri paylaşmak istiyorum. 
+Web sitemede bulunmasını istediğim etiketler (header, main, nav, section, article, aside, footer) kullanılmasını 
+istiyorum. Bana bu web sitesini oluşturmamda yardım eder misin?
+
+Prompt 3:
+Elimde bir tatlıya ait resim var ama siteye nasıl ekleyeceğimi bilmiyorum, bana HTML kodunda ne yazmam gerektiği
+hakkında bilgi verebilir misin?
+
+Prompt 4:
+Elimde canva ai dan yapılmış olan bir fotoğraf var bu fotoğrafı web sitesine nasıl eklemeliyim yardımcı olur musun?
+
+Prompt 5:
+Canva harici fotoğraf üretme yapay zekası olarak ne kullanabilirim öneri verebilir misin?
+
+Prompt 6:
+Web sitem şu şekilde olacak pastalar, kurabiyeler, şerbetli tatlılar ve sütlü tatlılar , 4 çeşitli seçenek olacak şekilde 
+kod yazmanı istiyorum yapar mısın? Ayrıca home, hakkında ve iletişim bölümü üstte kalsın lütfen
+
+Prompt 7:
+Resimlerin boyutunu nasıl ayarlayacağım bu konuyla alakalı bir örnek verir misin?
+
+Prompt 8:
+Pastanın resmine tıklayınca tarifin gözükmesini istiyorum bunun kodunu yazabilir misin?
+
+Prompt 9:
+css ve js kodlarının tamamını yazar mısın? 
+
+Prompt 10:
+Bana HTML kodu şeklinde yazılmış tamamlanmış 1 tarif içeren örnek verir misin? tarif pasta tarifi olsun lütfen.
+
+Prompt 11:
+Sitede hakkında kısmına basınca site hakkında bilgi verilsin. İletişim kısmına basınca da iletişim bilgileri verilsin.
+Bunu nasıl yapmam gerekiyor yardımcı olur musun?
+
+Prompt 12:
+Siteme logosuyu nasıl ekleyeceğim yardım eder misin?
+
+Prompt 13:
+Logo şeklini nasıl değiştireceğim?
+
+Görseller için kullandığım promptlar
+
+Canva:
+Prompt 1: 
+I want you to draw a chocolate and strawberry cake, but please make it a slice of cake.
+
+Prompt 2:
+I want you to draw a Turkish baklava with pistachios. Please make the baklava sliced.
+
+Prompt 3:
+I want you to draw a banana magnolia. Please have the magnolia in a glass. There can also be bananas or 
+something visually appealing behind the picture.
+
+Prompt 4:
+Now I also want a rice pudding picture. Let it be clear that the dessert is made of rice and in a glass bowl.
+
+Prompt 5:
+I want rabbit-shaped cookies from you. The cookies will be chocolate-flavored and can have decorations on them.
+
+Prompt 6:
+I want a picture of a round cookie with chocolate chips
+
+Prompt 7:
+I want a picture of a fruity cake. It should have various kinds of fruits on top.
